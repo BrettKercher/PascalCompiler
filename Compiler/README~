@@ -1,3 +1,0 @@
-This is the complete compiler project written in C using YACC. It does not compile objects or array/pointer references on the right hand side of a statement. The compiler takes a a pascal program as input, converts it into a list of tokens, and then into a tree structure. Finally, it takes the tree structure and turns it into assembly code.
-
-To compile, use make compiler, then call compiler with with a pascal program from Test Files to get the assembly code. Extract out that code into a .s file, which can be run with the driver program by calling cc driver.c filename.s -lm.
