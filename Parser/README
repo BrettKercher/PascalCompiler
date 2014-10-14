@@ -1,0 +1,5 @@
+This is the parser for a pascal compiler program written with YACC and C. It takes a list of tokens as input, which are created by the yacc lexical analyzer, and outputs a tree structure of the program.
+
+To compile, use make parser, and run using any of the pascal files in the Test Files directory as input.
+
+The shell of the program including instvars.c, pprint.c, printtoken.c, symtab.c, symtab.h, and token.h was written by Gordon S. Novak Jr, while the main functionality of the program implemented in parse.y, and lexan.l was written by Brett Kercher.
