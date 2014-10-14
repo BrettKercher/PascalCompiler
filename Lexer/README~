@@ -1,0 +1,6 @@
+This is a lexical analyzer program written in C. It takes a pascal program as input and outputs a list of tokens. The token type is described in token.h, but only the tokentype, datatype, and tokenval variables are filled out in this portion of the compiler. token.h also defines what the values for these 3 variables correspond to.
+
+To compile, use make lexanc, and run using any of the .pas files as input.
+
+
+The shell of this program, including printtoken.c, lexandr.c, lexan.h, and token.h were written by Gordon S. Novak Jr, while the functionality of the program found in lexan.c were written by Brett Kercher.
