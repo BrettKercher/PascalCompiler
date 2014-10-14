@@ -1,5 +1,0 @@
-Name: Brett Kercher
-EID: bmk627
-CS Login: bkercher
-
-This is the second part of the parser project, which handles all of graph1.pas, including the const block, unary operators, type coersion, and repeat until statements.
