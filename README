@@ -1,0 +1,9 @@
+This is a pascal compiler written in C using YACC.
+
+Directories:
+
+Lexer: The Lexical analyzer (Pascal -> Tokens)
+
+Parser: A parser program (Tokens ->Tree)
+
+Compiler: The Complete Compiler (Pascal -> Tokens -> Tree -> Assembly)
