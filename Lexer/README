@@ -3,4 +3,4 @@ This is a lexical analyzer program written in C. It takes a pascal program as in
 To compile, use make lexanc, and run using any of the .pas files as input.
 
 
-The shell of this program, including printtoken.c, lexandr.c, lexan.h, and token.h were written by Gordon S. Novak Jr, while the functionality of the program found in lexan.c was written by Brett Kercher.
+The shell of this program, including printtoken.c, lexandr.c, lexan.h, token.h, and scanner.c were written by Gordon S. Novak Jr, while the functionality of the program found in lexan.c was written by Brett Kercher.
